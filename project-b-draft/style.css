@@ -1,0 +1,140 @@
+.container{
+  background-color: #0e2353;
+}
+
+.video-background{
+  max-width:1420px;
+}
+
+.content{
+  position:absolute;
+  bottom: 0;
+  color:mistyrose;
+  text-align: center;
+  width: 100%;
+  font-family: "Nova Mono", monospace;
+  font-weight: 400;
+  font-size: 4em;
+  font-style: normal;
+  padding-bottom: 20%;
+}
+
+/* .full-screen-image{
+  background-image: url("climate change.jpeg");
+  height: 100vh;
+  background-size: cover; 
+  background-position: center center; 
+} */
+
+
+.large-wrapper{
+  width: 100%;
+  max-width: 1000px;
+  margin:auto;
+  /* margin-bottom: 50vh; */
+  background-color: #0e2353;
+}
+
+.header-wrapper{
+  width: 100%;
+  /* height: 60px; */
+  margin-bottom: 50px;
+  margin-top: 10px ;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  text-align: center;
+  color:#0e2353;
+  background-color: mistyrose;
+  padding: 3px 0px 3px 0px;
+}
+
+/* .header-wrapper h1{
+  margin-top: ;
+} */
+
+.main-wrapper{
+  display: flex;
+  gap: 20px;
+  background-color: #0e2353;
+  /* margin-bottom: 50px; */
+}
+
+.left-bottom-wrapper{
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color:mistyrose;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size:120%;
+}
+
+.text-box-wrapper{
+  /* background-color: rgb(64, 157, 187); */
+  padding: 5px;
+}
+
+/* .text-box-wrapper:first-child{
+  background-color: rgb(163, 182, 224);
+} */
+
+/* .text-box-wrapper:last-child{
+  /* background-color: rgb(163, 182, 224); */
+
+
+.right-top-wrapper{
+  flex: 1;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.extra-image-wrapper{
+  display: flex;
+  gap: 20px;
+}
+
+.image-box-wrapper{
+  width: 50%;
+  /* background-color: rgb(246, 244, 169); */
+  /* height: 200px; */
+}
+
+.image-box-wrapper img{
+  width: 100%;
+  display: block;
+}
+
+.canvas-section-wrapper{
+  display: flex;
+  flex-direction: column;
+  /* gap:20px; */
+  position: sticky;
+  top: 110px; 
+}
+
+.canvas-container{
+  width: 100%;
+}
+
+.canvas-container canvas{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.invsible-buffer{
+  width: 100%;
+  /* height: 300px; */
+  height: 50px;
+  /* background-color: rgb(204, 225, 210); */
+}
+
+.fin-wrapper{
+  height: 10px;
+  /* background-color: rgb(169, 246, 187); */
+
+}
