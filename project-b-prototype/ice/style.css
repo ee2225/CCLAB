@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  background-color: #0e2353;
+}
+
+
+.content {
+  position: absolute;
+  bottom: 0;
+  color: mistyrose;
+  text-align: center;
+  width: 100%;
+  font-family: "Nova Mono", monospace;
+  font-weight: 400;
+  font-size: 5em;
+  font-style: normal;
+  padding-bottom: 20%;
+}
+
+/* .full-screen-image{
+    background-image: url("climate change.jpeg");
+    height: 100vh;
+    background-size: cover; 
+    background-position: center center; 
+  } */
+
+
+.large-wrapper {
+  width: 100%;
+  max-width: 1000px;
+  margin: auto;
+  /* margin-bottom: 50vh; */
+  background-color: #0e2353;
+}
+
+.header-wrapper {
+  width: 100%;
+  margin-bottom: 50px;
+  margin-top: 10px;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  text-align: center;
+  color: #0e2353;
+  background-color: mistyrose;
+  padding: 3px 0px 3px 0px;
+  border-radius: 50px;
+}
+
+
+.top-wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.top-left-wrapper {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: mistyrose;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 150%;
+}
+
+.text-box-wrapper {
+  /* background-color: rgb(64, 157, 187); */
+  padding: 5px;
+}
+
+.top-right-wrapper {
+  flex: 1;
+  gap: 10px;
+}
+
+.extra-image-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.image-box-wrapper {
+  width: 100%;
+  max-width: 50%;
+}
+
+.image-box-wrapper img {
+  width: 50%;
+  display: block;
+}
+
+
+/* .canvas-wrapper{
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    top: 110px; 
+    background-color:aliceblue;
+  } */
+
+#canvasContainer {
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* width: 626px;
+    height:417px; */
+}
+
+#canvasContainer canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.mid-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: mistyrose;
+  font-family: "Alegreya Sans", sans-serif;
+  font-weight: 350;
+  font-style: normal;
+  font-size: 150%;
+}
+
+.fin-wrapper {
+  height: 10px;
+}
